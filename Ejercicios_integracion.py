@@ -84,6 +84,6 @@ class CuentaJoven(Cuenta):
     
     def mostrar(self):
         info = super().mostrar()
-        return f"""Cuenta Joven""" + info + f""" Bonificacion: {self._bonificacion}."""
+        return f"""Cuenta Joven.  """ + info + f""" Bonificacion: {self._bonificacion}."""
     
     
